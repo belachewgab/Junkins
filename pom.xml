@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>testjunkins</artifactId>
+	<artifactId>testjenkins</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
@@ -16,7 +16,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.4.0-20220824</app.runtime>
-		<mule.maven.plugin.version>3.8.0</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -36,7 +36,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<username>walombo2</username>
 						<password>B0910623807$e</password>
-						<applicationName>testjunkins</applicationName>
+						<applicationName>jenkydemo</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
